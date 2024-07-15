@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login and Add item To Cart">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="Login Test">
+        <classes>
+            <class name="com.testcase.Login.Test_LoginFunction"/>
+        </classes>
+    </test>
+
+    <test name="Add Product Test">
+        <classes>
+            <class name="com.testcase.Cart.Test_SearchAndAddItemToCart"/>
+        </classes>
+    </test>
+
+</suite>
