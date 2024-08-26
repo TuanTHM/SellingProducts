@@ -22,6 +22,7 @@ public class Test_LoginFunction extends DriverInstance {
 
     @BeforeClass
     public void goToLoginPage() {
+        System.out.println("Thread of [Login Test] -> " + Thread.currentThread().threadId());
         driver.get(ReadLinkTest.getLink("LOGIN_URL"));
     }
 
@@ -95,7 +96,6 @@ public class Test_LoginFunction extends DriverInstance {
 
         if (ITestResult.FAILURE == result.getStatus()) { //result.getStatus() : Success=1/failure=2
             try {
-                //{"email":"string"[0] , "password":"string"[1]}
                 //Get the 1st param(email) of "result" and cast it to String
                 String email =(String) result.getParameters()[0];
                 String imageName = "(LoginFunc)-[" + email + "]-(FAIL)";

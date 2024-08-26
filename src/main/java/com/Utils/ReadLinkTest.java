@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ReadLinkTest {
-    private static String LINK_TESTDATA = "./TestData/LinkTest/LinkTest.properties";
+    private static final String LINK_TESTDATA = "./TestData/LinkTest/LinkTest.properties";
 
     public static String getLink(String nameOfLink) {
         try {

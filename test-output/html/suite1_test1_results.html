@@ -3,259 +3,34 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Login Test</title>
+  <title>Test Results Report - Add Product Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Login Test</h1>
+<h1>Add Product Test</h1>
 <p>
-  Test duration: 30.582s
+  Test duration: 31.578s
 </p>
 
 
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">com.testcase.Login.Test_LoginFunction</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  LoginWithAccounts
-      </td>
-  <td class="duration">
-    3.022s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"tuan006@example.com", "saimatkhau006"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Login failed with: tuan006@example.com expected [false] but found [true]</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              org.testng.Assert.fail(Assert.java:111)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
-              org.testng.Assert.assertFalse(Assert.java:79)<br />
-              com.testcase.Login.Test_LoginFunction.LoginWithAccounts(Test_LoginFunction.java:90)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:819)<br />
-              org.testng.TestRunner.run(TestRunner.java:619)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1134)<br />
-              org.testng.TestNG.run(TestNG.java:1101)<br />
-              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
-              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  LoginWithAccounts
-      </td>
-  <td class="duration">
-    3.098s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"tuan002@example.com", "Tuan@456"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Login failed with: tuan002@example.com expected [false] but found [true]</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              org.testng.Assert.fail(Assert.java:111)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
-              org.testng.Assert.assertFalse(Assert.java:79)<br />
-              com.testcase.Login.Test_LoginFunction.LoginWithAccounts(Test_LoginFunction.java:90)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:819)<br />
-              org.testng.TestRunner.run(TestRunner.java:619)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1134)<br />
-              org.testng.TestNG.run(TestNG.java:1101)<br />
-              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
-              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  LoginWithAccounts
-      </td>
-  <td class="duration">
-    2.992s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"tuan004@example.com", "incorrect004"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Login failed with: tuan004@example.com expected [false] but found [true]</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              org.testng.Assert.fail(Assert.java:111)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
-              org.testng.Assert.assertFalse(Assert.java:79)<br />
-              com.testcase.Login.Test_LoginFunction.LoginWithAccounts(Test_LoginFunction.java:90)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:819)<br />
-              org.testng.TestRunner.run(TestRunner.java:619)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1134)<br />
-              org.testng.TestNG.run(TestNG.java:1101)<br />
-              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
-              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  LoginWithAccounts
-      </td>
-  <td class="duration">
-    3.001s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"tuan003@example.com", "Tuan@111"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Login failed with: tuan003@example.com expected [false] but found [true]</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              org.testng.Assert.fail(Assert.java:111)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
-              org.testng.Assert.assertFalse(Assert.java:79)<br />
-              com.testcase.Login.Test_LoginFunction.LoginWithAccounts(Test_LoginFunction.java:90)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:819)<br />
-              org.testng.TestRunner.run(TestRunner.java:619)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1134)<br />
-              org.testng.TestNG.run(TestNG.java:1101)<br />
-              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
-              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                </div>
-      </td>
-</tr>
-      </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.testcase.Login.Test_LoginFunction</td>
+        <td colspan="3" class="group">com.testcase.Cart.Test_SearchAndAddItemToCart</td>
       </tr>
             
 <tr>
   <td class="method">
-                  LoginWithAccounts
+                  TC01_isSearchTextboxDisplayed
       </td>
   <td class="duration">
-    6.764s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"tuan001@example.com", "Tuan@123"</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  LoginWithAccounts
-      </td>
-  <td class="duration">
-    5.376s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"tuan005@example.com", "Minhtuan222"</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC01_isEmailTextBoxDisplayed
-      </td>
-  <td class="duration">
-    0.039s
+    0.052s
   </td>
   <td class="result">
         
@@ -266,7 +41,77 @@
 </tr>
 <tr>
   <td class="method">
-                  TC02_isEmailTextBoxEnabled
+                  TC02_isSearchTextBoxEnabled
+      </td>
+  <td class="duration">
+    0.048s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC03_isSubmitSearchButtonDisplayed
+      </td>
+  <td class="duration">
+    0.063s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC04_isSubmitSearchButtonEnabled
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC05_performSearchItem
+      </td>
+  <td class="duration">
+    1.681s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC06_isSearchFunctionPerformed
+      </td>
+  <td class="duration">
+    0.290s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC07_isDisplayedItemMatched
       </td>
   <td class="duration">
     0.024s
@@ -280,10 +125,10 @@
 </tr>
 <tr>
   <td class="method">
-                  TC03_isPasswordTextBoxDisplayed
+                  TC08_isInfomationOfItemDisplayed
       </td>
   <td class="duration">
-    0.033s
+    0.079s
   </td>
   <td class="result">
         
@@ -294,7 +139,21 @@
 </tr>
 <tr>
   <td class="method">
-                  TC04_isPasswordTextBoxEnabled
+                  TC09_isAddToCartIconDisplayed
+      </td>
+  <td class="duration">
+    0.028s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC10_isAddToCartIconEnabled
       </td>
   <td class="duration">
     0.015s
@@ -308,7 +167,49 @@
 </tr>
 <tr>
   <td class="method">
-                  TC05_isLoginButtonDisplayed
+                  TC11_AddItemToCart
+      </td>
+  <td class="duration">
+    0.038s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC12_isMessageDisplayed
+      </td>
+  <td class="duration">
+    0.033s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC13_isMessageDispayedAsRequired
+      </td>
+  <td class="duration">
+    0.033s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC14_isViewCartDisplayed
       </td>
   <td class="duration">
     0.022s
@@ -322,10 +223,24 @@
 </tr>
 <tr>
   <td class="method">
-                  TC06_isLoginButtonEnabled
+                  TC15_isViewCartClickable
       </td>
   <td class="duration">
-    0.016s
+    0.020s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC16_isTheItemInCart
+      </td>
+  <td class="duration">
+    1.361s
   </td>
   <td class="result">
         

@@ -27,10 +27,11 @@ public class Test_SearchAndAddItemToCart extends DriverInstance {
 
     @BeforeClass
     public void getToProductPage() {
+        System.out.println("Thread of [Search Product Test] -> " + Thread.currentThread().threadId());
         driver.get(ReadLinkTest.getLink("PRODUCT_URL"));
     }
 
-    @Test (priority = 0)
+    @Test (priority = 1)
     public void TC01_isSearchTextboxDisplayed() {
         WebElement searchTextbox = driver.findElement(
                 By.xpath(ReadUIElements.getProductListPageElement("searchTextBox")));

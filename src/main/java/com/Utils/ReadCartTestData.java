@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ReadCartTestData {
-    private static String CART_TESTDATA = "./TestData/AddToCartTest/CartTestData.properties";
+    private static final String CART_TESTDATA = "./TestData/AddToCartTest/CartTestData.properties";
 
     public static String getCartData(String nameOfData) {
         try {
