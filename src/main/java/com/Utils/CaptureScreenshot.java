@@ -15,13 +15,13 @@ public class CaptureScreenshot {
     public static void takeScreenshot(WebDriver driver, String imageName) {
         try {
             //Check if dir-screenshot is not created, create a directory name "Screenshots"
-            File directory = new File("./Screenshots");
+            File directory = new File("./CasesFailed-Screenshots");
             if (!directory.exists()) {
                 directory.mkdirs();
             }
             TakesScreenshot screenshot = (TakesScreenshot) driver;
 
-            fileName = "./Screenshots/" + imageName + ".png";
+            fileName = "./CasesFailed-Screenshots/" + imageName + ".png";
             File fileSrc = screenshot.getScreenshotAs(OutputType.FILE);
             File fileDes = new File(fileName);
 

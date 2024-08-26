@@ -1,5 +1,6 @@
 package com.Base;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -12,7 +13,7 @@ public class DriverInstance {
 
     @BeforeClass
     public void openChromeBrowser() {
-        System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
@@ -21,6 +22,6 @@ public class DriverInstance {
     @AfterClass
     public void terminateBrowser() throws Exception {
         Thread.sleep(500);
-        driver.close();
+        driver.quit();
     }
 }

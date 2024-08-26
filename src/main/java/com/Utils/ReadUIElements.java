@@ -4,8 +4,8 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ReadUIElements {
-    private static String PRODUCTLISTPAGE_PATH = "./UI_Elements/UI_ProductListPage.properties";
-    private static String LOGINPAGE_PATH = "./UI_Elements/UI_Login.properties";
+    private static final String PRODUCTLISTPAGE_PATH = "./UI_Elements/UI_ProductListPage.properties";
+    private static final String LOGINPAGE_PATH = "./UI_Elements/UI_Login.properties";
 
     public static String getProductListPageElement(String nameOfElement) {
         try {
