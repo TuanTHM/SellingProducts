@@ -4,25 +4,25 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.801">
+           time="18.134">
   <properties />
   
   
-            <testcase name="TC06_isSearchFunctionPerformed" time="0.290" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC09_isAddToCartIconDisplayed" time="0.028" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC02_isSearchTextBoxEnabled" time="0.048" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC03_isSubmitSearchButtonDisplayed" time="0.063" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC15_isViewCartClickable" time="0.020" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC01_isSearchTextboxDisplayed" time="0.052" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC11_AddItemToCart" time="0.038" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC05_performSearchItem" time="1.681" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC16_isTheItemInCart" time="1.361" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC04_isSubmitSearchButtonEnabled" time="0.014" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC07_isDisplayedItemMatched" time="0.024" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC12_isMessageDisplayed" time="0.033" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC13_isMessageDispayedAsRequired" time="0.033" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC10_isAddToCartIconEnabled" time="0.015" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC14_isViewCartDisplayed" time="0.022" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
-                <testcase name="TC08_isInfomationOfItemDisplayed" time="0.079" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+            <testcase name="TC16_isTheItemInCart" time="2.133" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC05_performSearchItem" time="5.663" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC09_isAddToCartIconDisplayed" time="0.044" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC03_isSubmitSearchButtonDisplayed" time="0.036" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC02_isSearchTextBoxEnabled" time="0.186" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC01_isSearchTextboxDisplayed" time="7.447" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC04_isSubmitSearchButtonEnabled" time="0.025" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC11_AddItemToCart" time="0.076" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC15_isViewCartClickable" time="0.023" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC13_isMessageDispayedAsRequired" time="2.192" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC07_isDisplayedItemMatched" time="0.028" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC06_isSearchFunctionPerformed" time="0.098" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC12_isMessageDisplayed" time="0.029" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC10_isAddToCartIconEnabled" time="0.053" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC14_isViewCartDisplayed" time="0.033" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
+                <testcase name="TC08_isInfomationOfItemDisplayed" time="0.068" classname="com.testcase.Cart.Test_SearchAndAddItemToCart" />
       
 </testsuite>
