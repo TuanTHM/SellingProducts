@@ -11,21 +11,22 @@ import java.time.Duration;
 
 public class ActionsProductListPage {
 
-    protected WebDriverWait wait;
-
+    public WebDriver driver;
     public ActionsProductListPage(WebDriver driver) {
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        this.driver = driver;
     }
 
-    public void inputSearchTextBox(String itemName) {
-        WebElement searchTextBox = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath(ReadUIElements.getProductListPageElement("searchTextBox"))));
+    public void inputSearchTextBox(String itemName) throws Exception {
+        WebElement searchTextBox = driver.findElement(
+                By.xpath(ReadUIElements.getProductListPageElement("searchTextBox")));
+        Thread.sleep(500);
         searchTextBox.sendKeys(itemName);
     }
 
-    public void submitSearch() {
-        WebElement submitSearchButtonn = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath(ReadUIElements.getProductListPageElement("submitSearchButton"))));
+    public void submitSearch() throws Exception {
+        WebElement submitSearchButtonn = driver.findElement(
+                By.xpath(ReadUIElements.getProductListPageElement("submitSearchButton")));
+        Thread.sleep(500);
         submitSearchButtonn.click();
     }
 

@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Login and Add item To Cart" parallel="tests" thread-count="2">
+<suite name="Login and Add item To Cart" parallel="tests" thread-count="3" verbose="2">
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     </listeners>
 
-    <test name="Login Test">
+    <test name="Login Test - CHROME">
+        <parameter name="browserName" value="CHROME"/>
+        <classes>
+            <class name="com.testcase.Login.Test_LoginFunction"/>
+        </classes>
+    </test>
+    <test name="Login Test - FIREFOX">
+        <parameter name="browserName" value="FIREFOX"/>
+        <classes>
+            <class name="com.testcase.Login.Test_LoginFunction"/>
+        </classes>
+    </test>
+    <test name="Login Test - EDGE">
+        <parameter name="browserName" value="EDGE"/>
         <classes>
             <class name="com.testcase.Login.Test_LoginFunction"/>
         </classes>
     </test>
 
-    <test name="Add Product Test">
+    <test name="Add Product Test - CHROME">
+        <parameter name="browserName" value="CHROME"/>
+        <classes>
+            <class name="com.testcase.Cart.Test_SearchAndAddItemToCart"/>
+        </classes>
+    </test>
+    <test name="Add Product Test - FIREFOX">
+        <parameter name="browserName" value="FIREFOX"/>
+        <classes>
+            <class name="com.testcase.Cart.Test_SearchAndAddItemToCart"/>
+        </classes>
+    </test>
+    <test name="Add Product Test - EDGE">
+        <parameter name="browserName" value="EDGE"/>
         <classes>
             <class name="com.testcase.Cart.Test_SearchAndAddItemToCart"/>
         </classes>

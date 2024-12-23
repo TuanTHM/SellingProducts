@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bf0da59-bc11-4314-87ba-d4501e20ff61" name="Changes" comment="Update DriverInstance">
-      <change beforePath="$PROJECT_DIR$/Driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/(LoginFunc)-[tuan002@example.com]-(FAIL).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/(LoginFunc)-[tuan003@example.com]-(FAIL).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/(LoginFunc)-[tuan004@example.com]-(FAIL).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/(LoginFunc)-[tuan006@example.com]-(FAIL).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Utils/CaptureScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Utils/CaptureScreenshot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Utils/ReadCartTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Utils/ReadCartTestData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Utils/ReadLinkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Utils/ReadLinkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Utils/ReadUIElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Utils/ReadUIElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasesFailed-Screenshots/(LoginFunc)-[tuan002@example.com]-(FAIL).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasesFailed-Screenshots/(LoginFunc)-[tuan003@example.com]-(FAIL).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasesFailed-Screenshots/(LoginFunc)-[tuan004@example.com]-(FAIL).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasesFailed-Screenshots/(LoginFunc)-[tuan006@example.com]-(FAIL).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Base/DriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Base/DriverInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/POM/ActionsLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/POM/ActionsLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/POM/ActionsProductListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/POM/ActionsProductListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Utils/ReadTestLoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Utils/ReadTestLoginData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testcase/Cart/Test_SearchAndAddItemToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testcase/Cart/Test_SearchAndAddItemToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testcase/Login/Test_LoginFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testcase/Login/Test_LoginFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Base/DriverInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Base/DriverInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/POM/ActionsLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/POM/ActionsLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/POM/ActionsProductListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/POM/ActionsProductListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Utils/ReadTestLoginData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Utils/ReadTestLoginData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/testcase/Cart/Test_SearchAndAddItemToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testcase/Cart/Test_SearchAndAddItemToCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testcase/Login/Test_LoginFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testcase/Login/Test_LoginFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/testcase/Cart/Test_SearchAndAddItemToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testcase/Cart/Test_SearchAndAddItemToCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testcase/Login/Test_LoginFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testcase/Login/Test_LoginFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
@@ -24,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testcase.Cart.Test_SearchAndAddItemToCart_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testcase.Cart.Test_SearchAndAddItemToCart_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testcase.Login.Test_LoginFunction_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testcase.Login.Test_LoginFunction_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,65 +62,57 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.DataTestExcel.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/src/test/java/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/testng.xml.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.D:/SellingProducts/src/test/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginFunction.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.TestLoginFunction.loginFunction.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.Test_LoginFunction.LoginWithAccounts.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test_LoginFunction.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test_SearchAndAddItemToCart.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SellingProducts&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DataTestExcel.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/src/test/java/testng.xml.executor": "Run",
+    "TestNG.D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/testng.xml.executor": "Debug",
+    "TestNG.D:/SellingProducts/src/test/testng.xml.executor": "Run",
+    "TestNG.D:/SellingProducts/testng.xml.executor": "Run",
+    "TestNG.TestLoginFunction.executor": "Debug",
+    "TestNG.TestLoginFunction.loginFunction.executor": "Debug",
+    "TestNG.Test_LoginFunction.LoginWithAccounts.executor": "Run",
+    "TestNG.Test_LoginFunction.executor": "Run",
+    "TestNG.Test_SearchAndAddItemToCart.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SellingProducts",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Properties&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Properties"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\LABS\STP304x\Project_IntelliJ\ASSIGNMENT_2_SELENIUM\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SellingProducts" />
       <recent name="D:\LABS\STP304x\Project_IntelliJ\ASSIGNMENT_2_SELENIUM\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/SellingProducts/src/test/testng.xml">
-    <configuration name="D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/src/test/java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/SellingProducts/testng.xml">
+    <configuration name="D:/SellingProducts/src/test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SellingProducts" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/SellingProducts/src/test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/SellingProducts/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SellingProducts" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -173,19 +173,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.D:/SellingProducts/src/test/testng.xml" />
+      <item itemvalue="TestNG.D:/SellingProducts/testng.xml" />
+      <item itemvalue="TestNG.Test_LoginFunction" />
       <item itemvalue="TestNG.Test_LoginFunction.LoginWithAccounts" />
       <item itemvalue="TestNG.Test_SearchAndAddItemToCart" />
-      <item itemvalue="TestNG.Test_LoginFunction" />
-      <item itemvalue="TestNG.D:/SellingProducts/src/test/testng.xml" />
-      <item itemvalue="TestNG.D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/src/test/java/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/SellingProducts/testng.xml" />
         <item itemvalue="TestNG.D:/SellingProducts/src/test/testng.xml" />
         <item itemvalue="TestNG.Test_SearchAndAddItemToCart" />
         <item itemvalue="TestNG.Test_LoginFunction" />
         <item itemvalue="TestNG.Test_LoginFunction.LoginWithAccounts" />
-        <item itemvalue="TestNG.D:/LABS/STP304x/Project_IntelliJ/ASSIGNMENT_2_SELENIUM/src/test/java/testng.xml" />
       </list>
     </recent_temporary>
   </component>

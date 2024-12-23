@@ -15,6 +15,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 import static org.testng.Assert.assertTrue;
 
 
@@ -22,8 +24,8 @@ public class Test_LoginFunction extends DriverInstance {
 
     @BeforeClass
     public void goToLoginPage() {
-        System.out.println("Thread of [Login Test] -> " + Thread.currentThread().threadId());
         driver.get(ReadLinkTest.getLink("LOGIN_URL"));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @Test (priority = 0)
@@ -98,10 +100,10 @@ public class Test_LoginFunction extends DriverInstance {
             try {
                 //Get the 1st param(email) of "result" and cast it to String
                 String email =(String) result.getParameters()[0];
-                String imageName = "(LoginFunc)-[" + email + "]-(FAIL)";
+                String imageName = "(Login)-[" + email + "]-(FAIL)";
                 CaptureScreenshot.takeScreenshot(driver, imageName);
 
-                //Delete the inputted text inside Username&Password textboxes
+                //If case is failed, delete the inputted text inside Username&Password textboxes
                 WebElement inputtedEmail = driver.findElement(By.xpath(
                         ReadUIElements.getLoginElement("emailTextBox")));
                 WebElement inputtedPassword = driver.findElement(By.xpath(

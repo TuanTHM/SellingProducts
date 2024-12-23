@@ -27,8 +27,8 @@ public class Test_SearchAndAddItemToCart extends DriverInstance {
 
     @BeforeClass
     public void getToProductPage() {
-        System.out.println("Thread of [Search Product Test] -> " + Thread.currentThread().threadId());
         driver.get(ReadLinkTest.getLink("PRODUCT_URL"));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @Test (priority = 1)
@@ -59,13 +59,13 @@ public class Test_SearchAndAddItemToCart extends DriverInstance {
 
     @Test (priority = 5, dependsOnMethods = {"TC02_isSearchTextBoxEnabled", "TC04_isSubmitSearchButtonEnabled"})
     public void TC05_performSearchItem() {
-        ActionsProductListPage PLP = new ActionsProductListPage(driver);
-        PageFactory.initElements(driver, PLP);
+        ActionsProductListPage productListPage = new ActionsProductListPage(driver);
+        PageFactory.initElements(driver, productListPage);
 
         boolean inputItemFail = false;
         try {
-            PLP.inputSearchTextBox(ReadCartTestData.getCartData("itemSearch"));
-            PLP.submitSearch();
+            productListPage.inputSearchTextBox(ReadCartTestData.getCartData("itemSearch"));
+            productListPage.submitSearch();
         } catch (Exception e) {
             inputItemFail = true;
         }

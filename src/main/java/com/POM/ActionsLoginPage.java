@@ -11,39 +11,35 @@ import java.time.Duration;
 
 public class ActionsLoginPage {
 
-    protected WebDriverWait wait;
+    public WebDriver driver;
     public ActionsLoginPage(WebDriver driver) {
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        this.driver = driver;
     }
 
     public void enterEmail(String email) throws Exception {
-        WebElement emailTextBox = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath(ReadUIElements.getLoginElement("emailTextBox"))));
-        emailTextBox.sendKeys(email);
+        WebElement emailTextBox = driver.findElement(
+                        By.xpath(ReadUIElements.getLoginElement("emailTextBox")));
         Thread.sleep(500);
+        emailTextBox.sendKeys(email);
     }
 
     public void enterPassword(String password) throws Exception {
-        WebElement passwordTextbox = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath(ReadUIElements.getLoginElement("passwordTextBox"))));
-        passwordTextbox.sendKeys(password);
+        WebElement passwordTextbox = driver.findElement(
+                        By.xpath(ReadUIElements.getLoginElement("passwordTextBox")));
         Thread.sleep(500);
+        passwordTextbox.sendKeys(password);
     }
 
     public void clickLogInButton() throws Exception {
-        WebElement logInButton = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath(ReadUIElements.getLoginElement("logInButton"))));
-        logInButton.click();
+        WebElement logInButton = driver.findElement(
+                        By.xpath(ReadUIElements.getLoginElement("logInButton")));
         Thread.sleep(500);
+        logInButton.click();
     }
 
     public void clickLogOutButton() throws Exception {
-        WebElement logOutButton = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath(ReadUIElements.getLoginElement("logOutButton"))));
+        WebElement logOutButton = driver.findElement(
+                        By.xpath(ReadUIElements.getLoginElement("logOutButton")));
         Thread.sleep(500);
         logOutButton.click();
     }
